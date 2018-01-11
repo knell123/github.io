@@ -1,0 +1,191 @@
+body{
+	background-color: white;
+	margin: 0px;
+	font-family: Berlin Sans FB, Georgia, Verdana;
+	font-size: 14px;
+}
+
+#jklogo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.social_media_logos{
+	position: absolute;
+	top: 50px;
+	right: 50px;
+}
+
+div.social_media_logos:hover{
+	color: #919494;
+}
+
+#whatsnew{
+	font-size: 50px;
+	position: fixed;
+	top: 550px;
+	left: 800px;
+	color: #800020;
+}
+
+
+#navbar ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#navbar ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	padding: 10px;
+	opacity: .8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 40px;
+	background-color: white;
+}
+
+#navbar ul li a{
+	text-decoration: none;
+	padding: .2em 1em;
+	color: black;
+}
+
+#navbar ul li a:hover{
+	color: #800020;
+}
+
+#navbar ul li ul li{
+	display: none;
+}
+
+#navbar ul li:hover ul li{
+	display: block;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	width: auto\9;
+}
+
+
+
+.textOverImage{
+	position:relative;
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin: 4px;
+	background-size: 100%;
+	background-position:center;
+	transition:0.5s;
+	font-size: 25px;
+	
+}
+
+.textOverImage:hover{
+	background-size:110%;
+}
+
+.textOverImage:after{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	word-wrap:break-word;
+	overflow:hidden;
+	color: black;
+	padding:8px;
+	content:attr(data-text);
+	transition:0.1s;
+}
+
+
+
+#shirts{
+	position: absolute;
+	top:400px;
+	left: 10px;
+}
+
+#shirt_1{
+	position: absolute;
+	bottom: 100px;
+	left: 80px;
+}
+
+#shirt_2{
+	position: absolute;
+	bottom: 100px;
+	left: 440px;
+}
+
+#shirt_3{
+	position: absolute;
+	bottom: 100px;
+	left: 820px;
+}
+
+#shirt_4{
+	position: absolute;
+	bottom: 100px;
+	left: 1170px;
+}
+
+#shirt_5{
+	position: absolute;
+	bottom: 100px;
+	left: 1500px;
+}
+
+#pur{
+	position: absolute;
+	top: 350px;
+	left: 30px;
+	font-size: 80px;
+	color: #800020;
+}
+
+div.item_results{
+	position: absolute;
+	top: 410px;
+	left: 700px;
+	font-size: 80px;
+	color: #800020;
+}
+
+#cst{
+	position: absolute;
+	top: 450px;
+	left: 30px;
+	font-size: 80px;
+	color: #800020;
+}
+
+div.total_results{
+	position: absolute;
+	top: 510px;
+	left: 450px;
+	font-size: 80px;
+	color: #800020;
+}
+
+button.confirm{
+	position: absolute;
+	top: 610px;
+	left: 35px;
+	font-size: 50px;
+	color: grey;
+	background-color: white;
+	border-style: double;
+}
+button.confirm:active{
+	color: #800020;
+}
+
+
